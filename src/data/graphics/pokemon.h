@@ -2822,3 +2822,10 @@ const u8 gMonIcon_UnownExclamationMark[] = INCBIN_U8("graphics/pokemon/unown/exc
 const u32 gMonStillFrontPic_UnownQuestionMark[] = INCBIN_U32("graphics/pokemon/unown/question_mark/front.4bpp.lz");
 const u32 gMonBackPic_UnownQuestionMark[] = INCBIN_U32("graphics/pokemon/unown/question_mark/back.4bpp.lz");
 const u8 gMonIcon_UnownQuestionMark[] = INCBIN_U8("graphics/pokemon/unown/question_mark/icon.4bpp");
+
+const u32 gMonStillFrontPic_Cosme[] = INCBIN_U32("graphics/pokemon/cosme/front.4bpp.lz");
+const u32 gMonPalette_Cosme[] = INCBIN_U32("graphics/pokemon/cosme/normal.gbapal.lz");
+const u32 gMonBackPic_Cosme[] = INCBIN_U32("graphics/pokemon/cosme/back.4bpp.lz");
+const u32 gMonShinyPalette_Cosme[] = INCBIN_U32("graphics/pokemon/cosme/shiny.gbapal.lz");
+const u8 gMonIcon_Cosme[] = INCBIN_U8("graphics/pokemon/cosme/icon.4bpp");
+const u8 gMonFootprint_Cosme[] = INCBIN_U8("graphics/pokemon/cosme/footprint.1bpp");

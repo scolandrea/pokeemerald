@@ -2319,3 +2319,9 @@ const u8 gDeoxysPokedexText[] = _(
     "extraterrestrial virus exposed to a laser\n"
     "beam. Its body is configured for superior\n"
     "agility and speed.");
+
+const u8 gCosmePokedexText[] = _(
+    "An special cat Pokemon\n"
+    "extraterrestrial powers inside.\n"
+    "The cat loves his owner the mighty Ulises\n"
+    "Love.");
