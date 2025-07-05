@@ -2321,7 +2321,6 @@ const u8 gDeoxysPokedexText[] = _(
     "agility and speed.");
 
 const u8 gCosmePokedexText[] = _(
-    "An special cat Pokemon\n"
-    "extraterrestrial powers inside.\n"
-    "The cat loves his owner the mighty Ulises\n"
-    "Love.");
+    "A gray feline POKéMON, always male and\n"
+    "unhinged, dashing free under moonlight,\n"
+    "and treasures its pouch above all else.");
