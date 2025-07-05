@@ -2323,4 +2323,4 @@ const u8 gDeoxysPokedexText[] = _(
 const u8 gCosmePokedexText[] = _(
     "A gray feline POKéMON, always male and\n"
     "unhinged, dashing free under moonlight,\n"
-    "and treasures its pouch above all else.");
+    "and treasures food's pouch above all else.");
