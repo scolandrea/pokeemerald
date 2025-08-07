@@ -394,6 +394,7 @@ enum {
     NATIONAL_DEX_JIRACHI,
     NATIONAL_DEX_DEOXYS,
     NATIONAL_DEX_COSME,
+    NATIONAL_DEX_TITA,
     // Old Unown
     NATIONAL_DEX_OLD_UNOWN_B,
     NATIONAL_DEX_OLD_UNOWN_C,
@@ -424,7 +425,7 @@ enum {
 
 #define KANTO_DEX_COUNT     NATIONAL_DEX_MEW
 #define JOHTO_DEX_COUNT     NATIONAL_DEX_CELEBI
-#define NATIONAL_DEX_COUNT  NATIONAL_DEX_COSME
+#define NATIONAL_DEX_COUNT  NATIONAL_DEX_TITA
 
 // Hoenn Pokédex order
 enum {
@@ -632,6 +633,7 @@ enum {
     HOENN_DEX_JIRACHI,
     HOENN_DEX_DEOXYS,
     HOENN_DEX_COSME,
+    HOENN_DEX_TITA,
     // End of Hoenn Dex (see HOENN_DEX_COUNT)
     // Here below have values but are excluded from the Pokédex
     HOENN_DEX_BULBASAUR,
@@ -845,6 +847,6 @@ enum {
     HOENN_DEX_OLD_UNOWN_Z,
 };
 
-#define HOENN_DEX_COUNT HOENN_DEX_COSME
+#define HOENN_DEX_COUNT HOENN_DEX_TITA
 
 #endif // GUARD_CONSTANTS_POKEDEX_H

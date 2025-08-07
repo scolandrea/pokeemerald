@@ -2829,3 +2829,10 @@ const u32 gMonBackPic_Cosme[] = INCBIN_U32("graphics/pokemon/cosme/back.4bpp.lz"
 const u32 gMonShinyPalette_Cosme[] = INCBIN_U32("graphics/pokemon/cosme/shiny.gbapal.lz");
 const u8 gMonIcon_Cosme[] = INCBIN_U8("graphics/pokemon/cosme/icon.4bpp");
 const u8 gMonFootprint_Cosme[] = INCBIN_U8("graphics/pokemon/cosme/footprint.1bpp");
+
+const u32 gMonStillFrontPic_Tita[] = INCBIN_U32("graphics/pokemon/tita/front.4bpp.lz");
+const u32 gMonPalette_Tita[] = INCBIN_U32("graphics/pokemon/tita/normal.gbapal.lz");
+const u32 gMonBackPic_Tita[] = INCBIN_U32("graphics/pokemon/tita/back.4bpp.lz");
+const u32 gMonShinyPalette_Tita[] = INCBIN_U32("graphics/pokemon/tita/shiny.gbapal.lz");
+const u8 gMonIcon_Tita[] = INCBIN_U8("graphics/pokemon/tita/icon.4bpp");
+const u8 gMonFootprint_Tita[] = INCBIN_U8("graphics/pokemon/tita/footprint.1bpp");

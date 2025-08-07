@@ -2324,3 +2324,8 @@ const u8 gCosmePokedexText[] = _(
     "A gray feline POKéMON, always male and\n"
     "unhinged, dashing free under moonlight,\n"
     "and treasures food's pouch above all else.");
+
+const u8 gTitaPokedexText[] = _(
+    "A gray feline POKéMON, always female and\n"
+    "unhinged, dashing free under moonlight,\n"
+    "and treasures food's pouch above all else.");

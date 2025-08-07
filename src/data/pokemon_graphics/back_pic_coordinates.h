@@ -445,5 +445,6 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_UNOWN_EMARK] = { .size = MON_COORDS_SIZE(24, 56), .y_offset =  6 },
     [SPECIES_UNOWN_QMARK] = { .size = MON_COORDS_SIZE(32, 56), .y_offset =  6 },
     [SPECIES_COSME]       = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 12 },
+    [SPECIES_TITA]        = { .size = MON_COORDS_SIZE(48, 40), .y_offset = 12 },
 };
 
