@@ -4643,4 +4643,16 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 290,
         .trainerOffset = 2,
     },
+
+    [NATIONAL_DEX_COSME] =
+    {
+        .categoryName = _("MIGHTY"),
+        .height = 4,
+        .weight = 42,
+        .description = gCosmePokedexText,
+        .pokemonScale = 480,
+        .pokemonOffset = 19,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

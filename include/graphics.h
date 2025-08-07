@@ -2853,6 +2853,13 @@ extern const u32 gMonFrontPic_UnownQuestionMark[];
 extern const u32 gMonStillFrontPic_UnownQuestionMark[];
 extern const u32 gMonBackPic_UnownQuestionMark[];
 extern const u8 gMonIcon_UnownQuestionMark[];
+extern const u32 gMonFrontPic_Cosme[];
+extern const u32 gMonPalette_Cosme[];
+extern const u32 gMonBackPic_Cosme[];
+extern const u32 gMonShinyPalette_Cosme[];
+extern const u32 gMonStillFrontPic_Cosme[];
+extern const u8 gMonIcon_Cosme[];
+extern const u8 gMonFootprint_Cosme[];
 
 extern const u32 gMonFrontPic_CircledQuestionMark[];
 extern const u32 gMonBackPic_CircledQuestionMark[];

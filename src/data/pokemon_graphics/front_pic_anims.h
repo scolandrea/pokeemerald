@@ -4807,6 +4807,17 @@ static const union AnimCmd sAnim_UnownQMark_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_Cosme_1[] =
+{
+    ANIMCMD_FRAME(1, 8),
+    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(1, 8),
+    ANIMCMD_FRAME(0, 17),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+
 #define SINGLE_ANIMATION(name)                      \
 static const union AnimCmd *const sAnims_##name[] = \
 {                                                   \
@@ -5251,6 +5262,7 @@ SINGLE_ANIMATION(UnownY);
 SINGLE_ANIMATION(UnownZ);
 SINGLE_ANIMATION(UnownEMark);
 SINGLE_ANIMATION(UnownQMark);
+SINGLE_ANIMATION(Cosme);
 
 const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
 {
@@ -5694,5 +5706,6 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_UNOWN_Z]     = sAnims_UnownZ,
     [SPECIES_UNOWN_EMARK] = sAnims_UnownEMark,
     [SPECIES_UNOWN_QMARK] = sAnims_UnownQMark,
+    [SPECIES_COSME]    = sAnims_Cosme,
 
 };

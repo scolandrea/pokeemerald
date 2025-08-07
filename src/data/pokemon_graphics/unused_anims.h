@@ -1378,6 +1378,7 @@ static const union AnimCmd *const sUnusedAnims_UnownY[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_UnownZ[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_UnownEMark[] = {sAnim_GeneralFrame0};
 static const union AnimCmd *const sUnusedAnims_UnownQMark[] = {sAnim_GeneralFrame0};
+static const union AnimCmd *const sUnusedAnims_Cosme[] = {sAnim_GeneralFrame0};
 
 static const union AnimCmd *const *const sUnusedAnimsTable[] =
 {
@@ -1821,6 +1822,7 @@ static const union AnimCmd *const *const sUnusedAnimsTable[] =
     [SPECIES_UNOWN_Z] = sUnusedAnims_UnownZ,
     [SPECIES_UNOWN_EMARK] = sUnusedAnims_UnownEMark,
     [SPECIES_UNOWN_QMARK] = sUnusedAnims_UnownQMark,
+    [SPECIES_COSME] = sUnusedAnims_Cosme,
 };
 
 #undef ANIM_CMD
