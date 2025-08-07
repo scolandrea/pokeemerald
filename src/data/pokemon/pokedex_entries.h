@@ -4655,4 +4655,16 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_TITA] =
+    {
+        .categoryName = _("SCARED"),
+        .height = 4,
+        .weight = 42,
+        .description = gTitaPokedexText,
+        .pokemonScale = 480,
+        .pokemonOffset = 19,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

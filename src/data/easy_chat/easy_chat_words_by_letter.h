@@ -1699,6 +1699,7 @@ const u16 gEasyChatWordsByLetter_T[] = {
     EC_WORD_TIME,
     EC_WORD_TIMES,
     EC_WORD_TIRED,
+    EC_POKEMON_NATIONAL(TITA),
     EC_WORD_TO,
     EC_WORD_TO_HER,
     EC_WORD_TO_ME,
