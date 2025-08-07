@@ -4650,9 +4650,9 @@ const struct PokedexEntry gPokedexEntries[] =
         .height = 4,
         .weight = 42,
         .description = gCosmePokedexText,
-        .pokemonScale = 256,
-        .pokemonOffset = 0,
-        .trainerScale = 290,
-        .trainerOffset = 2,
+        .pokemonScale = 480,
+        .pokemonOffset = 19,
+        .trainerScale = 256,
+        .trainerOffset = 0,
     },
 };
