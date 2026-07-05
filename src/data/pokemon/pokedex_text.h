@@ -2326,6 +2326,7 @@ const u8 gCosmePokedexText[] = _(
     "and treasures food's pouch above all else.");
 
 const u8 gTitaPokedexText[] = _(
-    "A gray feline POKéMON, always female and\n"
-    "unhinged, dashing free under moonlight,\n"
-    "and treasures food's pouch above all else.");
+    "A multicolored feline POKéMON that spends\n"
+    "its days napping in warm spots and lazily\n"
+    "waiting for its next meal. Its calm nature\n"
+    "hides a surprisingly sharp instinct.");
