@@ -537,3 +537,5 @@ gSpecials::
 	def_special TrySetBattleTowerLinkType
 	def_special CheckLeagueWonWithCatsOnly
 	def_special GiveCosmeLeagueReward
+	def_special CountPlayerCatLivingDexSpecies
+	def_special GiveTitaLivingDexReward

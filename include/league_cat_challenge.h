@@ -6,5 +6,7 @@
 bool8 IsCatSpecies(u16 species);
 void CheckLeagueWonWithCatsOnly(void);
 u16 GiveCosmeLeagueReward(void);
+u8 CountPlayerCatLivingDexSpecies(void);
+u16 GiveTitaLivingDexReward(void);
 
 #endif // GUARD_LEAGUE_CAT_CHALLENGE_H
