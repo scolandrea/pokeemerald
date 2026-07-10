@@ -64,7 +64,8 @@ CatLivingDexReward_EventScript_AlreadyReceived::
 	end
 
 CatLivingDexReward_Text_InProgress:
-	.string "Ah, a TRAINER with an eye for cats!\p"
+	.string "DAD: Ah, a TRAINER with an eye for\n"
+	.string "cats!\p"
 	.string "I'm cataloguing every feline native\n"
 	.string "to HOENN.\p"
 	.string "Bring me one of each: MEOWTH, PERSIAN,\n"
@@ -75,12 +76,12 @@ CatLivingDexReward_Text_InProgress:
 	.string "those six feline companions...$"
 
 CatLivingDexReward_Text_EligibleIntro:
-	.string "Marvelous...!\p"
+	.string "DAD: Marvelous...!\p"
 	.string "You have gathered every wild cat of\n"
 	.string "HOENN, each one truly your own!\p"
-	.string "COSME rewards those who conquer with\n"
-	.string "fury. TITA belongs to those who know\l"
-	.string "them all.\p"
+	.string "Your MOM rewards those who conquer\n"
+	.string "with fury. TITA belongs to those who\l"
+	.string "know them all.\p"
 	.string "Please, accept this TITA.\n"
 	.string "She has waited patiently for a\l"
 	.string "collector like you!$"
@@ -89,11 +90,11 @@ CatLivingDexReward_Text_ObtainedTita:
 	.string "{PLAYER} received a TITA!$"
 
 CatLivingDexReward_Text_AfterReward:
-	.string "Care for that TITA gently.\n"
+	.string "DAD: Care for that TITA gently.\n"
 	.string "She prefers a warm nap after a job\l"
 	.string "well done!$"
 
 CatLivingDexReward_Text_AlreadyReceived:
-	.string "My TITA is already with you.\p"
+	.string "DAD: My TITA is already with you.\p"
 	.string "Keep building your bond with every\n"
 	.string "cat in HOENN!$"

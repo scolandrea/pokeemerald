@@ -97,7 +97,7 @@ Edit the `.string` blocks directly. Follow existing `\p` / `\l` / `\n` formattin
 - Male player: `(3, 9)`, faces right  
 - Female player: `(16, 9)`, faces left (beside May's house)  
 
-**Sprite:** `OBJ_EVENT_GFX_OLD_WOMAN` in `map.json`. Change `graphics_id` to any `OBJ_EVENT_GFX_*` from `include/constants/event_objects.h`.
+**Sprite:** `OBJ_EVENT_GFX_CAT_CHALLENGE_MOM` (`woman_2.4bpp` + custom black-hair palette). NPC dialogue labels her as MOM.
 
 ### Flags
 
@@ -213,9 +213,14 @@ Use `0`–`31` for a fixed IV, or `USE_RANDOM_IVS` (`32`) to leave that stat ran
 
 **Map object:** `data/maps/LittlerootTown/map.json`  
 - Object: `LOCALID_LITTLEROOT_CAT_COLLECTOR`  
-- Position: `(8, 12)` on the path toward Professor Birch's lab  
+- Default position: `(7, 9)` on the path between the houses  
 
-**Sprite:** `OBJ_EVENT_GFX_GENTLEMAN` in `map.json`.
+**Position script:** `data/maps/LittlerootTown/scripts.inc`  
+- `LittlerootTown_EventScript_SetCatCollectorNpcPos`  
+- Male player: `(7, 9)`, faces left (between Brendan's house and town center)  
+- Female player: `(12, 9)`, faces right (between May's house and town center)  
+
+**Sprite:** `OBJ_EVENT_GFX_CAT_CHALLENGE_DAD` (`man_4.4bpp` + custom black-hair palette). NPC dialogue labels him as DAD.
 
 ### Flags
 

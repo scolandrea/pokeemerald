@@ -69,8 +69,8 @@ CatLeagueReward_EventScript_AlreadyReceived::
 	end
 
 CatLeagueReward_Text_WaitingForCatTrainer:
-	.string "Ah, a young TRAINER!\p"
-	.string "I've been waiting here for a feline\n"
+	.string "MOM: Oh, hello, dear!\p"
+	.string "I've been waiting for a feline\n"
 	.string "TRAINER who would conquer the\l"
 	.string "POKéMON LEAGUE.\p"
 	.string "Only a team of cats, from start to\n"
@@ -79,8 +79,8 @@ CatLeagueReward_Text_WaitingForCatTrainer:
 	.string "special gift waiting…$"
 
 CatLeagueReward_Text_ChampionNotEligible:
-	.string "So you became CHAMPION!\n"
-	.string "Congratulations, truly.\p"
+	.string "MOM: So you became CHAMPION!\n"
+	.string "I'm so proud of you!\p"
 	.string "But the gift I keep is not for any\n"
 	.string "champion.\p"
 	.string "It belongs to one who entered the\n"
@@ -88,7 +88,7 @@ CatLeagueReward_Text_ChampionNotEligible:
 	.string "feline partners at their side.$"
 
 CatLeagueReward_Text_EligibleIntro:
-	.string "Incredible…!\p"
+	.string "MOM: Incredible…!\p"
 	.string "You conquered the LEAGUE with a team\n"
 	.string "of cats, just as I dreamed!\p"
 	.string "Please, accept this COSME.\n"
@@ -98,10 +98,10 @@ CatLeagueReward_Text_ObtainedCosme:
 	.string "{PLAYER} received a COSME!$"
 
 CatLeagueReward_Text_AfterReward:
-	.string "Raise that COSME with pride.\n"
+	.string "MOM: Raise that COSME with pride.\n"
 	.string "The feline spirit runs in your team!$"
 
 CatLeagueReward_Text_AlreadyReceived:
-	.string "My gift is already in your care.\p"
+	.string "MOM: My gift is already in your care.\p"
 	.string "May your cats keep prowling\n"
 	.string "victoriously across HOENN!$"
