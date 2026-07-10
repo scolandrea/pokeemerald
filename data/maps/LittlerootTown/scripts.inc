@@ -37,6 +37,8 @@ LittlerootTown_MapScripts::
 LittlerootTown_OnTransition:
 	setflag FLAG_VISITED_LITTLEROOT_TOWN
 	call Common_EventScript_SetupRivalGfxId
+	call LittlerootTown_EventScript_SetCatTrainerNpcPos
+	call LittlerootTown_EventScript_SetCatCollectorNpcPos
 	call_if_eq VAR_LITTLEROOT_INTRO_STATE, 2, LittlerootTown_EventScript_MoveMomToMaysDoor
 	call_if_unset FLAG_RESCUED_BIRCH, LittlerootTown_EventScript_SetTwinPos
 	call_if_eq VAR_LITTLEROOT_TOWN_STATE, 3, LittlerootTown_EventScript_SetMomStandingInFrontOfDoorPos
@@ -68,6 +70,38 @@ LittlerootTown_EventScript_MoveRivalFromOldale::
 LittlerootTown_EventScript_SetExitedHouseAfterLatiSSTicketEvent::
 	setvar VAR_LITTLEROOT_HOUSES_STATE_MAY, 5
 	setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 5
+	return
+
+LittlerootTown_EventScript_SetCatTrainerNpcPos::
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_SetCatTrainerNpcPosMale
+	goto LittlerootTown_EventScript_SetCatTrainerNpcPosFemale
+	end
+
+LittlerootTown_EventScript_SetCatTrainerNpcPosMale::
+	setobjectxyperm LOCALID_LITTLEROOT_CAT_TRAINER, 3, 9
+	setobjectmovementtype LOCALID_LITTLEROOT_CAT_TRAINER, MOVEMENT_TYPE_FACE_RIGHT
+	return
+
+LittlerootTown_EventScript_SetCatTrainerNpcPosFemale::
+	setobjectxyperm LOCALID_LITTLEROOT_CAT_TRAINER, 16, 9
+	setobjectmovementtype LOCALID_LITTLEROOT_CAT_TRAINER, MOVEMENT_TYPE_FACE_LEFT
+	return
+
+LittlerootTown_EventScript_SetCatCollectorNpcPos::
+	checkplayergender
+	goto_if_eq VAR_RESULT, MALE, LittlerootTown_EventScript_SetCatCollectorNpcPosMale
+	goto LittlerootTown_EventScript_SetCatCollectorNpcPosFemale
+	end
+
+LittlerootTown_EventScript_SetCatCollectorNpcPosMale::
+	setobjectxyperm LOCALID_LITTLEROOT_CAT_COLLECTOR, 7, 9
+	setobjectmovementtype LOCALID_LITTLEROOT_CAT_COLLECTOR, MOVEMENT_TYPE_FACE_LEFT
+	return
+
+LittlerootTown_EventScript_SetCatCollectorNpcPosFemale::
+	setobjectxyperm LOCALID_LITTLEROOT_CAT_COLLECTOR, 12, 9
+	setobjectmovementtype LOCALID_LITTLEROOT_CAT_COLLECTOR, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 LittlerootTown_EventScript_MoveMomToMaysDoor::
